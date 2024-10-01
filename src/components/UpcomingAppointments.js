@@ -78,7 +78,7 @@ const UpcomingAppointments = ({ email, triggerRefresh }) => {
 
 
                             />
-                            <ListItemSecondaryAction>
+                            {/* <ListItemSecondaryAction>
                                 <IconButton
                                     edge="end"
                                     aria-label="cancel"
@@ -87,7 +87,7 @@ const UpcomingAppointments = ({ email, triggerRefresh }) => {
                                 >
                                     <CancelIcon />
                                 </IconButton>
-                            </ListItemSecondaryAction>
+                            </ListItemSecondaryAction> */}
                         </ListItem>
                         {index < appointments.length - 1 && <Divider />}
                     </React.Fragment>
